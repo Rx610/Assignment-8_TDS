@@ -14,6 +14,3 @@ def main():
     if st.button("Find Largest"):
         largest = largest_number(a, b, c)
         st.write(f"The largest number is: {largest}")
-
-if __name__ == "__main__":
-    main()
